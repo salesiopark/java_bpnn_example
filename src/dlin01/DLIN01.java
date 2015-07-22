@@ -17,7 +17,7 @@ public class DLIN01 {
      */
     public static void main(String[] args) {
         long ls, le;
-        long iter = 5000;
+        long iter = 500;
 
 //        Net nn1 = new Net(2,5,2,3);
         Net nn1 = new Net(2,1000,100,100,3);

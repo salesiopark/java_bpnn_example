@@ -17,11 +17,9 @@ public class DLIN01 {
      */
     public static void main(String[] args) {
         long ls, le;
-        long iter = 500;
+        long iter = 10000;
 
-//        Net nn1 = new Net(2,5,2,3);
-        Net nn1 = new Net(2,1000,100,100,3);
-        //nn1.initWeight();
+        Net nn1 = new Net(2,20,3);
         
         double[][] ins1 = {
             {0.0, 0.0},
@@ -37,13 +35,6 @@ public class DLIN01 {
             {1.0, 1.0, 0.0},
         };
         
-//        double[][] outs1 = {
-//            {0.0},
-//            {0.0},
-//            {0.0},
-//            {1.0},
-//        };
-
         double d0,d1,d2,dE=1000.;
         nn1.disp();
         ls = nanoTime();
